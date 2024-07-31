@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform in CSS</title>
+    <style>
+        .container{
+            height: 40vh;
+            padding: 10px 20px;
+            background-color: red;
+        }
+        
+        .box{
+            text-align: justify;
+            padding: 5px;
+            border: 2px solid black;
+            transform: translate(50px);
+            /* transform: rotate(0.25turn); */
+            transform: rotate(50deg);
+            transform-origin: center;
+        }
+
+
+        .container-2{
+            height: 40vh;
+            margin-top: 25px;
+            padding: 10px 20px;
+            background-color: rgba(239, 89, 8, 0.83);
+        }
+        
+        .box-2{
+            text-align: justify;
+            padding: 5px;
+            border: 2px solid black;
+            /* transform: scale(2,10); */
+            transform: skew(10deg, 22deg);
+        }
+
+
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe porro, non asperiores officia
+            obcaecati quaerat nostrum vero ullam neque consequuntur sunt, ex possimus. Magnam, eos culpa provident
+            eveniet fugiat sed.
+        </div>
+    </div>
+
+    <div class="container-2">
+        <div class="box-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe porro, non asperiores officia
+            obcaecati quaerat nostrum vero ullam neque consequuntur sunt, ex possimus. Magnam, eos culpa provident
+            eveniet fugiat sed.
+        </div>
+    </div>
+
+
+</body>
+
+</html>

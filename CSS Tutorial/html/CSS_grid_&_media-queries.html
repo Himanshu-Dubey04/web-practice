@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid And Media Queries</title>
+    <style>
+        .container{
+           display: grid; 
+           background-color: bisque;
+           grid-row-gap: 10px;
+        }
+
+        .item{
+            border: 2px solid salmon
+        }
+
+        .grid{
+            display: grid;
+            margin-top: 20px;
+            background-color:blanchedalmond;
+            grid-row-gap: 50px;
+            grid-column-gap: 500px;
+            grid-template-columns: auto auto;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="item">Box-1</div>
+        <div class="item">Box-2</div>
+        <div class="item">Box-3</div>
+        <div class="item">Box-4</div>
+    </div>
+
+    <div class="grid">
+        <div class="item">Box-1</div>
+        <div class="item">Box-2</div>
+        <div class="item">Box-3</div>
+        <div class="item">Box-4</div>
+    </div>
+
+</body>
+</html>

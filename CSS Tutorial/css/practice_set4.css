@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+.navbar ul{
+    padding-top: 8px;
+    text-align: right;
+}
+.navbar ul li{
+    margin: 2px;
+    padding: 10px;
+    display: inline-block;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.right{
+    height: 90vh;
+    width: 50%;
+    text-align: center;
+    background-color: red;
+    display: inline-block;
+    
+}
+
+.left{
+    height: 90vh;
+    width: 50%;
+    text-align: center;
+    background-color: green;
+    display: inline-block;
+}
+.footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    padding-top: 35px ;
+    text-align: center;
+    text-transform: uppercase;
+}

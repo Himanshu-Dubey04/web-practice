@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.progress{
+    background-color: red;
+    height: 3px;
+    animation: load 0.5s ease-out 1;
+}
+header{
+    height: 70px;
+    background-color: black;
+}
+main{
+    height: 850px;
+    background-color: blueviolet;
+}
+/* img{
+    object-fit: contain;
+} */
+
+@keyframes load {
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 60vw;
+    }
+    100%{
+        width: 100vh;
+    }
+    
+}
+div{
+    height: 200px;
+    width: 500px;
+    display: flex;
+    position: relative;
+    margin: auto;
+    justify-items: center;
+    align-content: center;
+}
+img{
+    height: 200px;
+    width: 500px;
+    margin-top: 30vh;
+    position: absolute;
+    object-fit: contain;
+}
+img:hover{
+    animation: imgRotate .5s  infinite ;
+}
+@keyframes imgRotate {
+
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

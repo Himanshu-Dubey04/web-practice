@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+ul{
+    text-align: right;
+    
+}
+
+li{
+    font-size: 3vw;
+    padding: 0 10px 0 0;
+    display: inline;
+}
+
+.container{
+    min-height: 3000px;
+    background-color: red;
+    position: relative;
+    z-index: 3;
+}

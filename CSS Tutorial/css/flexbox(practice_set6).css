@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+ul{
+    padding: 20px;
+}
+
+li{
+    display: inline;
+    list-style: none;
+    padding: 0 10px;
+}
+
+.right{
+    height: 70vh;
+    width: 40vw;
+    background-color: rgba(165, 42, 42, 0.936);
+}
+
+.left{
+    height: 70vh;
+    width: 40vw;
+    background-color: rgb(222, 89, 0);
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}

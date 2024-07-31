@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display properties in CSS</title>
+    <style>
+        *{
+            font-family: 'Courier New', Courier, monospace
+        }
+        .box-1{
+            display: inline;
+            margin: 20px;
+            padding-left: 50px;
+            padding-right: 100px;
+            /* height: 200px;
+            width: 250px; */
+            background-color: burlywood;
+        }
+        .box-2{
+            display: block;
+            height: 200px;
+            width: 250px;
+            background-color:brown;
+        }
+        .box-3{
+            display: inline-block;
+            height: 200px;
+            width: 700px;
+            background-color:rgb(219, 31, 125);
+        }
+        .box-4{
+            display: none;
+            background-color: darkgray;
+        }
+    </style>
+  </head>
+
+  <body>
+   <div class="box-1">  <!-- display inline -->
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis,architecto. Obcaecati placeat repudiandae aliquid. Sint nam quidem soluta
+    </div>
+
+    <div class="box-2">  <!-- display inline -->
+      Numquam, dignissimos esse suscipit, nulla quaerat accusantium quam
+      consequatur, modi sit aliquid doloremque assumenda libero possimus
+      obcaecati! Id distinctio.
+    </div>
+
+    <div class="box-3">  <!-- display inline-block -->
+      Numquam, dignissimos esse suscipit, nulla quaerat accusantium quam
+      consequatur, modi sit aliquid doloremque assumenda libero possimus
+      obcaecati! Id distinctio.
+    </div>
+
+
+    <div class="box-4">  <!-- display None -->
+      Numquam, dignissimos esse suscipit, nulla quaerat accusantium quam
+      consequatur, modi sit aliquid doloremque assumenda libero possimus
+      obcaecati! Id distinctio.
+    </div>
+  </body>
+</html>

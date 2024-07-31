@@ -1,0 +1,21 @@
+body{
+    margin-top:20px;
+}
+img{
+    border: 5px solid red;
+    
+}
+.bg{
+    background-color: rgb(148, 146, 146);
+}
+
+h2{
+    text-align: center;
+    border-bottom: 3px solid rgb(244, 206, 112);
+    border-style:inset;
+    color: rgb(127, 127, 242);
+    background-color: rgb(244, 201, 201);
+}
+.top{
+    margin-top: 50px;
+}
